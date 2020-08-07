@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/rellax.min.js" defer></script>
+    <script type="text/javascript" src="js/aos.js" defer></script>
+    <script type="text/javascript" src="js/app.js" defer></script>
+    <title>SpaceX</title>
+</head>
+<body>
+
+<div class="page">
+
+    <header class="header">
+        <div class="header__inner" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1100">
+            <a class="header__logo" href="#">
+                <img class="logo" src="img/logo.svg" alt="logo">
+            </a>
+
+            <nav class="nav nav-center">
+                <a class="nav__link" href="#">Falcon 9</a>
+                <a class="nav__link" href="#">Falcon Heavy</a>
+                <a class="nav__link" href="#">Dragon</a>
+                <a class="nav__link" href="#">Updates</a>
+            </nav>
+
+            <nav class="nav">
+                <a class="nav__link nav__link-right" href="#">About</a>
+                <a class="nav__link nav__link-right" href="#">Gallery</a>
+                <a class="nav__link nav__link-right" href="#">Shop</a>
+            </nav>
+        </div><!-- /.header__inner -->
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="section__title" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700">Falcon Heavy</h1>
+            <div class="section__text" data-aos="fade-up" data-aos-delay="900" data-aos-duration="700">
+             The most powerful operational rocket in the world by a factor of two
+            </div>
+            <div class="video__wrapper" id="videoWrapper"data-aos="zoom-in" data-aos-duration="1800">
+                <video class="video" autoplay muted loop poster="video/poster.jpg">
+                    <source src="video/world.mp4" type="video/mp4">
+                    <source src="video/world.webm" type="video/webm">
+                </video>
+            </div>
+        </div><!-- /.container -->
+    </section>
+
+
+    <section class="section--secondary">
+        <div class="container">
+            <div class="rocket">
+                <table class="table">
+                    <caption data-aos="fade-left" data-aos-duration="500">Falcon Heavy <br>Overview</caption>
+                    <tbody>
+                        <tr>
+                            <td>HEIGHT</td>
+                            <td>70 m / <span>229.6 ft</span></td>
+                        </tr>
+                        <tr>
+                            <td>DIAMETER</td>
+                            <td>12.2 m / <span>39.9 ft</span></td>
+                        </tr>
+                        <tr>
+                            <td>MASS</td>
+                            <td>1,420,788 kg / <span>3,125,735 lb</span></td>
+                        </tr>
+                        <tr>
+                            <td>PAYLOAD TO LEO</td>
+                            <td>63,800 kg / <span> 140,660 lb</span></td>
+                        </tr>
+                        <tr>
+                            <td>PAYLOAD TO GTO    </td>
+                            <td>26,700 kg / <span>58,860 lb</span></td>
+                        </tr>
+                        <tr>
+                            <td>PAYLOAD TO MARS</td>
+                            <td>16,800 kg / <span>37,040 lb</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="rocket__description">
+                    <h2 class="rocket__title" data-aos="fade-left" data-aos-duration="500">UNMATCHED <br>PERFORMANCE</h2>
+                    <div class="rocket__text">
+                        <p>With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
+                    </div>
+                </div>
+
+                <div class="rocket__img">
+                    <img id="rellax" src="img/falcon-heavy.png" alt="rocket" data-rellax-speed="10">
+                </div>
+            </div><!-- /.rocket -->
+        </div><!-- /.container -->
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="img/logo.svg" alt="logo" data-aos="zoom-in" data-aos-duration="600">
+                </div>
+
+                <div class="footer__nav">
+                    <nav class="nav">
+                        <a class="nav__link nav__link-right" href="#">Twitter</a>
+                        <a class="nav__link nav__link-right" href="#">Youtube</a>
+                        <a class="nav__link nav__link-right" href="#">Instagram</a>
+                        <a class="nav__link nav__link-right" href="#">Flickr</a>
+                        <a class="nav__link nav__link-right" href="#">LinkedIn</a>
+                        <a class="nav__link nav__link-right" href="#">Privacy</a>
+                        <a class="nav__link nav__link-right" href="#">Policy</a>
+                    </nav>
+                </div>
+
+                <div class="copyright">
+                    For additional questions, contact
+                    <a href="mailto:rideshare@spacex.com">rideshare@spacex.com</a>
+                </div>
+
+                <button class="btn">Contact us</button>
+            </div><!-- /.footer__inner -->
+        </div><!-- /.container -->
+    </footer>
+
+</div><!-- /.page -->
+
+</body>
+</html>
