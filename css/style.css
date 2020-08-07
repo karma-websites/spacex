@@ -69,15 +69,16 @@ a {
 }
 
 .header__logo {
+    width: 139px;
     position: relative;
 }
 
 .logo {
     display: block;
-    width: 139px;
+    width: inherit;
 
     position: absolute;
-    top: -20px;
+    top: -12px;
     left: 0;
 }
 
@@ -347,10 +348,14 @@ caption {
     /* Header */
     .header__inner {
         flex-direction: column;
-        padding: 2rem 0;
+        padding: 3rem 0 2rem;
     }
 
-    .header__logo, .header__inner .nav {
+    .header__logo {
+        margin-bottom: 3rem;
+    }
+
+    .header__inner .nav {
         margin-bottom: 2rem;
     }
 
